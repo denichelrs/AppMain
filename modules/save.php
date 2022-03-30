@@ -16,7 +16,7 @@
         die('Query failed,');
     }
 
-    header('Location: ../index.php')
+    header('Location: ../')
 
 ?>
 

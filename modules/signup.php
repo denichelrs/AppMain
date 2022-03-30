@@ -10,27 +10,27 @@
 </head>
 <body>
 
-    <?php require '../tmp/header.php'; ?>
+    <?php require '../header/header.php'; ?>
     
     <h2>SignUp</h2>
     <span>or <a href="login.php">LogIn</a></span>
 
     <form action="save.php" method="post">
-        <div class="form-floating mb-3">
+        <div class="form-floating mb-3 mx-auto w-25">
             <input type="email" name="email" class="form-control" placeholder="name@example.com" id="input-email">
              <label class="form-label" for="input-email">Enter your email</label>
         </div>
 
-        <div class="form-floating mb-3">
+        <div class="form-floating mb-3 mx-auto w-25">
             <input type="password" name="password" class="form-control" placeholder="enter your password" id="input-password">
              <label class="form-label" for="input-password">Enter your password</label>
         </div>
-        <div class="form-floating mb-3">
+        <div class="form-floating mb-3 mx-auto w-25">
             <input type="password" name="password" class="form-control" placeholder="confirm your password" id="input-password">
               <label class="form-label" for="input-password">Confirm your password</label>
         </div>
 
-        <input type="submit" name="Register" class="btn btn-success">
+        <input type="submit" name="Register" class="btn btn-success w-25">
 
 
     </form>

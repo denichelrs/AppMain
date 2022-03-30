@@ -9,25 +9,26 @@
 </head>
 <body class="justify-content-center">
 
-    <?php require '../tmp/header.php'; ?>
+    <?php require '../header/header.php'; ?>
 
     <h1>LogIn</h1>
      <span>or <a href="signup.php">SignUp</a></span>
-    <form action="home.php" method="post">
+    <form action="../home.php" method="post" onsubmit="validateForm()">
 
-        <div class="form-floating mb-3 mt-3">
+        <div class="form-floating mb-3 mt-3 mx-auto w-25">
             <input type="email" name="login_email" class="form-control" placeholder="name@example.com" id="input-email">
             <label class="form-label" for="input-email">Email Address</label>
         </div>
-        <div class="form-floating mb-3">
+        <div class="form-floating mb-3 mt-3 mx-auto w-25">
             <input type="password" name="password" class="form-control" placeholder="password123" id="input-password">
             <label class="form-label" for="input-password">Password</label>
         </div>
 
-        <input type="submit" name="Send" class="btn btn-primary w-25">
+        <input type="submit" name="Send" class="btn btn-primary w-25 mt-3" id="bt">
         
     </form>
 
+    <script type="text/javascript" src="../js/main.js"></script>
 
 </body>
 </html>

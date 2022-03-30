@@ -9,14 +9,15 @@
 </head>
 <body>
 
-    <?php require 'tmp/header.php'; ?>
+    <div class="container">
+        <?php require 'header/header.php'; ?>
 
-    <h2 class="">Please login or signup</h2>
+        <h2 class="">Please login or signup</h2>
 
-    <a href="modules/login.php">LogIn</a>
-    or
-    <a href="modules/signup.php">SignUp</a>
-
+        <a href="modules/login.php">LogIn</a>
+        or
+        <a href="modules/signup.php">SignUp</a>
+    </div>
 
 </body>
 </html>
