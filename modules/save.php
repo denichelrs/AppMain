@@ -1,4 +1,5 @@
 <?php
+
     require_once("db.php");
 
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
@@ -16,7 +17,6 @@
     }
 
     header('Location: ../index.php')
-
 
 ?>
 
