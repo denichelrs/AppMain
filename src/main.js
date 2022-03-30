@@ -3,6 +3,6 @@ function validationData(){
 	let password = document.getElementById('pwd');
 
 	
+	
 }
 
-	
